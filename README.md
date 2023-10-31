@@ -59,6 +59,12 @@ to stop it:
 
 ```docker-compose down```
 
+### Create super user
+
+Create super user to be able to visit admin site
+
+```python manage.py createsuperuser```
+
 
 
 ### Stand alone apps
