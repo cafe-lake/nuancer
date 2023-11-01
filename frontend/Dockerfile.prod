@@ -1,7 +1,7 @@
 ###########
 # BUILDER #
 ###########
-FROM node:lts-slim as builder
+FROM node:14.21.3 as builder
 
 COPY package.json package-lock.json ./
 RUN npm install && mkdir /react-frontend && mv ./node_modules ./react-frontend
