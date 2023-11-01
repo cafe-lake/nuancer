@@ -147,3 +147,8 @@ Admin panel can be found at [localhost/api/admin/](http://localhost/api/admin/)
 to stop it:
 
 ```docker-compose -f docker-compose.prod.yml down```
+
+
+### 参考記事
+- AWS
+  - https://weseek.co.jp/tech/2196/#7_EC2_Docker_install
