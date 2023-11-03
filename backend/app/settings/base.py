@@ -22,6 +22,12 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 
 SECRET_KEY = os.environ.get("SECRET_KEY", default='somerandomkey')
 
+X_API_KEY = os.environ.get("X_API_KEY", default='somerandomkey')
+X_API_KEY_SECRET = os.environ.get("X_API_KEY_SECRET", default='somerandomkey')
+X_BEARER_TOKEN = os.environ.get("X_BEARER_TOKEN", default='somerandomkey')
+X_ACCESS_TOKEN = os.environ.get("X_ACCESS_TOKEN", default='somerandomkey')
+X_ACCESS_TOKEN_SECRET = os.environ.get("X_ACCESS_TOKEN_SECRET", default='somerandomkey')
+
 DEBUG = int(os.environ.get("DEBUG", default=0))
 
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", default='localhost 127.0.0.1').split(" ")
