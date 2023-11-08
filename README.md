@@ -149,6 +149,10 @@ to stop it:
 ```docker-compose -f docker-compose.prod.yml down```
 
 
+### やってほしいこと
+- pythonのモジュールやjsのパッケージを入れた場合もコンテナのビルドを行う(pip installやnpm installを実行するため)
+  - requirements配下のファイルやpackage.jsonの変更を取り込んだ時
+
 ### 参考記事
 - AWS
   - https://weseek.co.jp/tech/2196/#7_EC2_Docker_install
