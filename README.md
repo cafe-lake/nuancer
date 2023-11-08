@@ -150,8 +150,8 @@ to stop it:
 
 
 ### やってほしいこと
-- pythonのモジュールやjsのパッケージを入れた場合もコンテナのビルドを行う(pip installやnpm installを実行するため)
-  - requirements配下のファイルやpackage.jsonの変更を取り込んだ時
+- pythonのモジュールやjsのパッケージを入れた場合もコンテナのビルドを行う(requirements配下のファイルやpackage.jsonの変更を取り込んだ時)
+  - pip installやnpm installを実行するため
 
 ### 参考記事
 - AWS
