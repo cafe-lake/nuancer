@@ -19,4 +19,7 @@ class Search(APIView):
         res = x.get(url)
         response_data = json.loads(res.text)['data']
 
+        if request.query:
+            response_data['user_query'] = request.query
+
         return Response(response_data, status=status.HTTP_200_OK)
