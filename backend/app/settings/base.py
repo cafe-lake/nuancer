@@ -28,6 +28,8 @@ X_BEARER_TOKEN = os.environ.get("X_BEARER_TOKEN", default="somerandomkey")
 X_ACCESS_TOKEN = os.environ.get("X_ACCESS_TOKEN", default="somerandomkey")
 X_ACCESS_TOKEN_SECRET = os.environ.get("X_ACCESS_TOKEN_SECRET", default="somerandomkey")
 
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", default="somerandomkey")
+
 DEBUG = int(os.environ.get("DEBUG", default=0))
 
 ALLOWED_HOSTS = os.environ.get(
